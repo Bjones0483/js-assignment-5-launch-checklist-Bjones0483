@@ -14,7 +14,7 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
                 </ol>
                 <img src="">
    */
-               missionTarget = document.getElementById("missionTarget")
+               missionTarget = document.getElementById("missionTarget");
                missionTarget.innerHTML = `
                 <h2>Mission Destination</h2>
                 <ol>
@@ -95,11 +95,6 @@ function pickPlanet(planets) {
     let currentPlanet = planets[randomIndex];
     return currentPlanet;
 };
-
-
-
-   
-
 
 module.exports.addDestinationInfo = addDestinationInfo;
 module.exports.validateInput = validateInput;
