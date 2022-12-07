@@ -49,7 +49,7 @@ window.addEventListener("load", function() {
         addDestinationInfo(window.document, pickedPlanet.name, pickedPlanet.diameter, pickedPlanet.star, pickedPlanet.distance, pickedPlanet.moons, pickedPlanet.image);
     })    
 
-})
+});
    
    
    
